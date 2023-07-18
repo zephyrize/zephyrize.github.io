@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.com/2022/12/07/MysqlRedisGo-Install/</loc>
+    
+    <lastmod>2023-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/12/10/hello-world/</loc>
+    
+    <lastmod>2023-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/tags/index.html</loc>
     
     <lastmod>2023-07-18</lastmod>
@@ -28,15 +46,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>http://example.com/2022/12/10/hello-world/</loc>
-    
-    <lastmod>2023-07-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>http://example.com/</loc>
@@ -45,6 +54,27 @@
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>http://example.com/tags/mysql/</loc>
+    <lastmod>2023-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/redis/</loc>
+    <lastmod>2023-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/go/</loc>
+    <lastmod>2023-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>http://example.com/tags/github/</loc>
@@ -63,6 +93,13 @@
 
   
   <url>
+    <loc>http://example.com/categories/mysql/</loc>
+    <lastmod>2023-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/categories/github/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -70,7 +107,21 @@
   </url>
   
   <url>
+    <loc>http://example.com/categories/mysql/redis/</loc>
+    <lastmod>2023-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/categories/github/hexo/</loc>
+    <lastmod>2023-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/mysql/redis/go/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

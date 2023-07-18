@@ -29,13 +29,13 @@
 <meta property="og:url" content="http://example.com/index.html">
 <meta property="og:site_name" content="Zephyr&#39;s Blog">
 <meta property="og:description" content="This is a blog.">
-<meta property="og:locale" content="zh_CH">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="Zephyr, Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="Zephyr&#39;s Blog" type="application/atom+xml">
   
-  <link rel="icon" href="/css/images/myblog-icon.ico">
+  <link rel="icon" href="/css/images/favicon.ico">
   
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
@@ -76,15 +76,15 @@
 <script>
 var themeMenus = {};
 
-  themeMenus["/"] = "Home"; 
+  themeMenus["/"] = "首页"; 
 
-  themeMenus["/archives"] = "Archives"; 
+  themeMenus["/archives"] = "归档"; 
 
-  themeMenus["/categories"] = "Categories"; 
+  themeMenus["/categories"] = "分类"; 
 
-  themeMenus["/tags"] = "Tags"; 
+  themeMenus["/tags"] = "标签"; 
 
-  themeMenus["/about"] = "About"; 
+  themeMenus["/about"] = "关于"; 
 
 </script>
 
@@ -113,15 +113,15 @@ var themeMenus = {};
 
               <ul id="main-nav" class="nmenu sf-js-enabled">
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/">Home</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/">首页</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/archives">Archives</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/archives">归档</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/categories">Categories</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/categories">分类</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/tags">Tags</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/tags">标签</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/about">About</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/about">关于</a> </li>
                     
               </ul>
             </div>
@@ -186,7 +186,7 @@ var themeMenus = {};
     <div class="article-meta">
       
 	Posted on <a href="/2022/12/10/hello-world/" class="article-date">
-	  <time datetime="2022-12-10T06:04:42.333Z" itemprop="datePublished">December 10, 2022</time>
+	  <time datetime="2022-12-10T06:04:42.333Z" itemprop="datePublished">十二月 10, 2022</time>
 	</a>
 
       
@@ -197,21 +197,23 @@ var themeMenus = {};
 
           
             <div class="entry-summary" style="margin-left:0;">
-            一个通过hexo和github搭建的博客平台。
-快速上手创建一个笔记1hexo new hello_world.md
+            hello world
+  
+
+快速上手创建一个笔记1hexo new &quot;hello_world.md&quot;
 
 More info: Writing
 运行本地服务器1$ hexo server
 
 More info: Server
-远程上传笔记到github.io1234567hexo clean #清除缓存，网页正常情况下可以忽略此条命令，执行该指令后，会删掉站点根目录下的public文件夹。hexo g #generate静态网页（静态网页这里指没有前端后端的网页而不是静止），该命令把md编译为html并存到public文件目录下。hexo d #将本地的更改部署到远端服务器（需要一点时间，请过一会再刷新网页）。# 也可以直接使用命令：hexo g -d
+远程上传笔记到github.io12345678#清除缓存，网页正常情况下可以忽略此条命令，执行该指令后，会删掉站点根目录下的public文件夹。hexo clean #generate静态网页（静态网页这里指没有前端后端的网页而不是静止），该命令把md编译为html并存到public文件目录下。hexo g #将本地的更改部署到远端服务器（需要一点时间，请过一会再刷新网页）。hexo d # 也可以直接使用命令：hexo g -d
 
-More inf...
+Mor...
           
 
         
           <p class="article-more-link">
-            <a href="/2022/12/10/hello-world/#more">Continue Reading →</a>
+            <a href="/2022/12/10/hello-world/#more">阅读全文</a>
           </p>
         </div>
       
@@ -238,6 +240,69 @@ More inf...
     
 
   
+    <article id="post-MysqlRedisGo-Install"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2022/12/07/MysqlRedisGo-Install/">Mysql\Redis\Go的安装过程</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	Posted on <a href="/2022/12/07/MysqlRedisGo-Install/" class="article-date">
+	  <time datetime="2022-12-07T13:21:56.982Z" itemprop="datePublished">十二月 7, 2022</time>
+	</a>
+
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+
+          
+            <div class="entry-summary" style="margin-left:0;">
+            mysql\redis\go的安装笔记
+
+
+一. 安装MySQL1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677781. 安装mysql服务器 sudo apt updatesudo apt install mysql-server2. 查看Mysql服务器运行状态：sudo systemctl status mysql3. 安装成功后开始配置mysql：sudo mysql_secure_installation接下来选择yes就是配置密码强度和...
+          
+
+        
+          <p class="article-more-link">
+            <a href="/2022/12/07/MysqlRedisGo-Install/#more">阅读全文</a>
+          </p>
+        </div>
+      
+    </div>
+    <footer class="entry-meta entry-footer">
+      
+	<span class="ico-folder"></span>
+    <a class="article-category-link" href="/categories/mysql/">mysql</a>, <a class="article-category-link" href="/categories/mysql/redis/">redis</a>, <a class="article-category-link" href="/categories/mysql/redis/go/">go</a>
+
+      
+  <span class="ico-tags"></span>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/go/" rel="tag">go</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mysql/" rel="tag">mysql</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/redis/" rel="tag">redis</a></li></ul>
+
+      
+            
+      
+    </footer>
+  </div>
+  
+</article>
+
+<!-- Table of Contents -->
+
+    
+
+  
 
 
 </section>
@@ -249,15 +314,15 @@ More inf...
     <form class="search-form">
         <label style="width: 75%;">
             <span class="screen-reader-text">Search for:</span>
-            <input type="search" class="search-field" style="height: 42px;" placeholder=" Search…" value="" name="s" title="Search for:">
+            <input type="search" class="search-field" style="height: 42px;" placeholder=" 搜索…" value="" name="s" title="Search for:">
         </label>
-        <input type="submit" class="search-form-submit" value="Search">
+        <input type="submit" class="search-form-submit" value="搜索">
     </form>
     <div class="ins-search">
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="Type something..."/>
+            <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -269,11 +334,11 @@ More inf...
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Posts',
-            PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
-            UNTITLED: '(Untitled)',
+            POSTS: '文章',
+            PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+            UNTITLED: '(无标题)',
         },
         ROOT_URL: '/',
         CONTENT_URL: '/content.json',
@@ -290,7 +355,7 @@ More inf...
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Connect With Us</h3>
+    <h3 class="widget-title">联系我们</h3>
     <div class="widget widget_athemes_social_icons">
 
     	<ul class="clearfix widget-social-icons">   
@@ -324,7 +389,7 @@ More inf...
     
   <div class="widget_athemes_tabs">
     <ul id="widget-tab" class="clearfix widget-tab-nav">
-      <li class="active"><a>Recent Posts</a></li>
+      <li class="active"><a>最新文章</a></li>
     </ul>
     <div class="widget">
       <ul>
@@ -336,7 +401,19 @@ More inf...
             
 
               <h6 style="margin: 0;"><a href="/2022/12/10/hello-world/">Hello World</a></h6>
-              <span>December 10, 2022</span>
+              <span>十二月 10, 2022</span>
+            </div>
+
+          </li>
+        
+          <li class="clearfix">
+
+            
+              <div class="widget-entry-summary" style="margin: 0;">
+            
+
+              <h6 style="margin: 0;"><a href="/2022/12/07/MysqlRedisGo-Install/">Mysql\Redis\Go的安装过程</a></h6>
+              <span>十二月 7, 2022</span>
             </div>
 
           </li>
@@ -348,9 +425,9 @@ More inf...
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Categories</h3>
+    <h3 class="widget-title">分类</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/github/">github</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/github/hexo/">hexo</a><span class="category-list-count">1</span></li></ul></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/github/">github</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/github/hexo/">hexo</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/mysql/">mysql</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/mysql/redis/">redis</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/mysql/redis/go/">go</a><span class="category-list-count">1</span></li></ul></li></ul></li></ul>
     </div>
   </div>
 
@@ -358,9 +435,9 @@ More inf...
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
+    <h3 class="widget-title">标签</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/github/" rel="tag">github</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/" rel="tag">hexo</a><span class="tag-list-count">1</span></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/github/" rel="tag">github</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/go/" rel="tag">go</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/" rel="tag">hexo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mysql/" rel="tag">mysql</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/redis/" rel="tag">redis</a><span class="tag-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -368,19 +445,19 @@ More inf...
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
+    <h3 class="widget-title">标签云</h3>
     <div class="widget tagcloud">
-      <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a>
+      <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/go/" style="font-size: 10px;">go</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/mysql/" style="font-size: 10px;">mysql</a> <a href="/tags/redis/" style="font-size: 10px;">redis</a>
     </div>
   </div>
 
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
+    <h3 class="widget-title">归档</h3>
 
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/12/">December 2022</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/12/">十二月 2022</a><span class="archive-list-count">2</span></li></ul>
     </div>
   </div>
 
