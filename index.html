@@ -35,7 +35,7 @@
   
     <link rel="alternate" href="/atom.xml" title="Zephyr&#39;s Blog" type="application/atom+xml">
   
-  <link rel="icon" href="/css/images/favicon.ico">
+  <link rel="icon" href="/css/images/myblog-icon.ico">
   
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
@@ -70,14 +70,6 @@
 <link rel="stylesheet" href="/css/my.css">
 
   <!-- Google Adsense -->
-  
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-0123456789ABCDEF",
-          enable_page_level_ads: true
-      });
-  </script>
   
 <meta name="generator" content="Hexo 6.3.0"></head>
 
@@ -205,14 +197,16 @@ var themeMenus = {};
 
           
             <div class="entry-summary" style="margin-left:0;">
-            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;
+            一个通过hexo和github搭建的博客平台。
+快速上手创建一个笔记1hexo new hello_world.md
 
 More info: Writing
-Run server1$ hexo server
+运行本地服务器1$ hexo server
 
 More info: Server
-Generate static files1$ ...
+远程上传笔记到github.io1234567hexo clean #清除缓存，网页正常情况下可以忽略此条命令，执行该指令后，会删掉站点根目录下的public文件夹。hexo g #generate静态网页（静态网页这里指没有前端后端的网页而不是静止），该命令把md编译为html并存到public文件目录下。hexo d #将本地的更改部署到远端服务器（需要一点时间，请过一会再刷新网页）。# 也可以直接使用命令：hexo g -d
+
+More inf...
           
 
         
@@ -224,7 +218,13 @@ Generate static files1$ ...
     </div>
     <footer class="entry-meta entry-footer">
       
+	<span class="ico-folder"></span>
+    <a class="article-category-link" href="/categories/github/">github</a>, <a class="article-category-link" href="/categories/github/hexo/">hexo</a>
+
       
+  <span class="ico-tags"></span>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/github/" rel="tag">github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/" rel="tag">hexo</a></li></ul>
+
       
             
       
@@ -347,12 +347,33 @@ Generate static files1$ ...
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/github/">github</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/github/hexo/">hexo</a><span class="category-list-count">1</span></li></ul></li></ul>
+    </div>
+  </div>
+
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/github/" rel="tag">github</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/" rel="tag">hexo</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </div>
+
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a>
+    </div>
+  </div>
+
   
     
   <div class="widget-wrap">
